@@ -98,6 +98,15 @@ The dataset used has around 3-4 Lakh rows and there are multiple datasets divide
 **Insight :-** I found that the hiring count has decreased over the years and also, I have considered the batch of 5 years such as 1985 to 1990 and so on. Exact figures can be checked in the screenshot.
 
 
+9) **Manager Names in different Departments**
+
+![manager names in different departments](https://github.com/ujjwal717/employees-analysis-using-sql/assets/93403224/bae64022-4e9c-4327-9ac4-8933bada2d6a)
+
+
+**Insight :-** It basically shows the manager names of various department. It is useful if we need to contact the manager of certain department to check for project updates and other such things
+
+
+
 
 
 
