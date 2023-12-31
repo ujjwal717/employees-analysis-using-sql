@@ -78,6 +78,18 @@ The dataset used has around 3-4 Lakh rows and there are multiple datasets divide
 
 
 
+7) **Employees count according to gender across various Departments**
+
+
+![employees count according to gender across different departments](https://github.com/ujjwal717/employees-analysis-using-sql/assets/93403224/7ea77311-1647-45aa-8d7b-36662cad310a)
+
+
+
+**Insight :-** I found out that count of female employees in each and every department is less than the male employees. The exact employees count can be seen in the screenshot of the analysis.
+
+
+
+
 
 
 
