@@ -89,7 +89,14 @@ The dataset used has around 3-4 Lakh rows and there are multiple datasets divide
 
 
 
-8) 
+8) **Employees count hired across Years**
+
+
+![employees hired across years](https://github.com/ujjwal717/employees-analysis-using-sql/assets/93403224/2a03f678-96e9-4c87-82b7-9655f7f2c045)
+
+
+**Insight :-** I found that the hiring count has decreased over the years and also, I have considered the batch of 5 years such as 1985 to 1990 and so on. Exact figures can be checked in the screenshot.
+
 
 
 
