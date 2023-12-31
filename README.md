@@ -126,6 +126,18 @@ The dataset used has around 3-4 Lakh rows and there are multiple datasets divide
 
 
 
+12) **Years took Employee to get the First Promotion**
+
+
+![years took to get 1st promotion](https://github.com/ujjwal717/employees-analysis-using-sql/assets/93403224/f72e4b06-0d62-4321-bf43-a3c2fe3d2513)
+
+
+
+**Insight :-** It shows the time period in years that an employee took in order to get the first promotion. I noticed that the years for the first promotion varies according to different employees as every employee has different amount of efficiency and working mechanism, the time taken to get the promotion is also different.
+
+
+
+
 
 
 
