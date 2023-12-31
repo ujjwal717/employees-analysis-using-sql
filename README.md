@@ -68,7 +68,7 @@ The dataset used has around 3-4 Lakh rows and there are multiple datasets divide
 
 
 
-6) **Employees count across different Department by Job Title :-**
+6) **Employees count across different Departments by Job Title :-**
 
 
 ![employee count across different department by job title](https://github.com/ujjwal717/employees-analysis-using-sql/assets/93403224/ec005677-d08a-4c31-bb83-f0d72bd44305)
