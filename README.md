@@ -58,7 +58,14 @@ The dataset used has around 3-4 Lakh rows and there are multiple datasets divide
 
 
 
-5)
+5) **Average Salary in Development Department for different Job Titles**
+
+
+![average salary in DEVELOPMENT department in multiple job titles](https://github.com/ujjwal717/employees-analysis-using-sql/assets/93403224/74456399-3b8b-410e-98d8-1cc2b9ad4041)
+
+
+**Insight :-** I found that Senior Engineer earns most in "Development" department and that is 60k+ USD and staff earns least and that is around 56k USD.
+
 
 
 
