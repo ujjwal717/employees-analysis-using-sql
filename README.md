@@ -107,6 +107,16 @@ The dataset used has around 3-4 Lakh rows and there are multiple datasets divide
 
 
 
+10) **Number of Promotion employee got and Title after Promotion**
+
+![promotion count and title after promotion](https://github.com/ujjwal717/employees-analysis-using-sql/assets/93403224/0073d7d4-afe8-403d-b483-399da436b193)
+
+
+**Insight :-** It shows count of promotion and I noticed that there are few employees that never got promotion and there are many employees who got promotion. Also, by checking the count of promotion, we can estimate how well an employee performed as generally, the count of promotion is or atleast should be dependent upon the hardwork and effectiveness of employee in the company as if employee is good, only then manager would promote or give the name of that particular employee for promotion. It also shows the Job Title after receiving the promotion or the title of the employee if he/she was not promoted.
+
+
+
+
 
 
 
