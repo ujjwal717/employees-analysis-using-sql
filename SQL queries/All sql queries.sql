@@ -99,25 +99,6 @@ order by t.title     -- ordering by the title
 
 
 
-
--- 7) All Employees having more than 1 Job Title
-
-SELECT distinct concat(e.first_name, ' ' , e.last_name) as "Employee Name", t.emp_no as "Employee ID", COUNT(DISTINCT t.title) AS "Number of Titles"
-FROM titles as t   -- selected columns and gave aliases 
-
-inner join dept_emp as de using(emp_no)  -- inner join between titles and dept_emp tables
-inner join departments as d using(dept_no)  -- inner join with departments tables
-inner join employees as e using(emp_no)  -- inner join with employees table
-
-GROUP BY t.emp_no, e.first_name, e.last_name -- grouped the data according to employee number, first name and last name
-
-having count(DISTINCT t.title) > 1;  -- used having clause to filter employees having more than 1 distinct job title
-
-
-
-
-
-
 -- 8) Average Salary of various Job Titles in 'Development' Department
 
 
