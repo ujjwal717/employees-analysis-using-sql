@@ -116,6 +116,17 @@ The dataset used has around 3-4 Lakh rows and there are multiple datasets divide
 
 
 
+11) **Number of Raises and Maximum Salary of each Employee**
+
+
+![raises count and maximum salary of each employee](https://github.com/ujjwal717/employees-analysis-using-sql/assets/93403224/04d3dadd-144a-40c5-b462-2e824dab7988)
+
+
+**Insight :-** It shows the count of raises that each employee received in his/her entire career in the particular company. It also shows the maximum salary of the employee and it is in variety of ranges such as 78k USD, 52k USD, 94k USD, 80k USD and many more. We have already checked average salary according to various categories.
+
+
+
+
 
 
 
