@@ -17,7 +17,7 @@ The dataset used has around 3-4 Lakh rows and there are multiple datasets divide
 
 1) **Average Salary in Different Departments**
 
-![Uploading average salary in different departments.PNG…]()
+
 
 
 
