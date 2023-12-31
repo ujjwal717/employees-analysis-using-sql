@@ -11,6 +11,25 @@ The dataset used has around 3-4 Lakh rows and there are multiple datasets divide
 
 **Note :-** Check datasets to check for exact details of various columns.
 
+**Various Analysis done :-**
+1) Average Salary in Different Departments
+2) Count of Employees in each Department
+3) Employees having more than Average Salary
+4) Count of Manager in each Department
+5) Average Salary in Development Department for different Job Titles
+6) Employees count across different Departments by Job Title
+7) Employees count according to gender across various Departments
+8) Employees count hired across Years
+9) Manager Names in different Departments
+10) Number of Promotion employee got and Title after Promotion
+11) Number of Raises and Maximum Salary of each Employee
+12) Years took Employee to get the First Promotion
+
+
+
+
+
+
 **Different Analysis with screenshot and explanation given below :-**
 
 
