@@ -21,6 +21,40 @@ The dataset used has around 3-4 Lakh rows and there are multiple datasets divide
 ![average salary in different departments](https://github.com/ujjwal717/employees-analysis-using-sql/assets/93403224/6987d2cb-429d-41ef-87eb-0b17eed2b918)
 
 
+**Insight :-** I found out that the maximum average salary of employees is in "Sales" (80k USD) department followed by "Marketing"(71k USD) and then "Finance"(70k USD).
+
+
+
+
+2) **Count of Employees in each Department**
+
+
+![count of employees in each department](https://github.com/ujjwal717/employees-analysis-using-sql/assets/93403224/c87342f7-8b86-43bc-8853-dcf007e61113)
+
+
+**Insight :-** I found out that "Development" department has most number of employees followed by "Production" and then "Sales"
+
+
+
+3) **Employees having more than Average Salary**
+
+
+![employees having more than average salary](https://github.com/ujjwal717/employees-analysis-using-sql/assets/93403224/cdce15cb-9d12-4404-a0c3-e6f78ad14424)
+
+
+**Insight :-** I here analysed various employees who had more salary than the average salary and I have ordered it in descending order and found that 158k USD is the maximum salary given in the company.
+
+
+
+4) **Count of Manager in each Department**
+
+
+![count of mnagers per department](https://github.com/ujjwal717/employees-analysis-using-sql/assets/93403224/3a7a2561-330e-480f-9827-df8de8330a13)
+
+
+
+
+
 
 
 
