@@ -52,6 +52,15 @@ The dataset used has around 3-4 Lakh rows and there are multiple datasets divide
 ![count of mnagers per department](https://github.com/ujjwal717/employees-analysis-using-sql/assets/93403224/3a7a2561-330e-480f-9827-df8de8330a13)
 
 
+**Insight :-** I found out that "Quality Management", "Customer Service" and "Production" has 4-4 managers and other departments include 2 managers each.
+
+
+
+
+
+5)
+
+
 
 
 
