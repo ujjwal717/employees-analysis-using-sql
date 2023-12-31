@@ -18,6 +18,10 @@ The dataset used has around 3-4 Lakh rows and there are multiple datasets divide
 1) **Average Salary in Different Departments**
 
 
+![average salary in different departments](https://github.com/ujjwal717/employees-analysis-using-sql/assets/93403224/6987d2cb-429d-41ef-87eb-0b17eed2b918)
+
+
+
 
 
 
