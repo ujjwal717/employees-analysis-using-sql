@@ -99,7 +99,7 @@ order by t.title     -- ordering by the title
 
 
 
--- 8) Average Salary of various Job Titles in 'Development' Department
+-- 7) Average Salary of various Job Titles in 'Development' Department
 
 
 select t.title as "Job Title",d.dept_name as "Department Name", -- selected columns and gave aliases
@@ -123,7 +123,7 @@ order by round(avg(s.salary)) desc  -- ordered the result in descending order by
 
 
 
--- 9) Count of Employees according to gender in different Departments
+-- 8) Count of Employees according to gender in different Departments
 
 
 select d.dept_name as "Department Name",       -- select dept_name column and gave alias
@@ -146,7 +146,7 @@ having (sum(case when e.gender = 'M' then 1 else 0 end) > 0) or
 
 
 
---10) Count of Employees hired across range of years in various Departments
+--9) Count of Employees hired across range of years in various Departments
 
 
 SELECT distinct d.dept_name AS "Department Name",  -- selected department name column and gave aliases
@@ -167,7 +167,7 @@ group by d.dept_name  -- grouped according to department name
 
 
 
--- 11) Number of raises and maximum salary of each employee
+-- 10) Number of raises and maximum salary of each employee
 
 
 select distinct e.emp_no as "Employee ID", concat(e.first_name, ' ' , e.last_name) as "Employee Name",  -- selected columns and gave aliases
@@ -186,7 +186,7 @@ order by e.emp_no asc  -- ordered result by employees number in ascending order
 
 
 
--- 12) Years tooks employee to get the 1st promotion
+-- 11) Years tooks employee to get the 1st promotion
 
 select distinct concat(e.first_name , ' ' , e.last_name) as "Employee Name",    -- Concatenated and selected first name and last name of employees
 
@@ -210,7 +210,7 @@ order by e.emp_no asc    -- ordered by employee number in ascending order
 
 
 
--- 13) Number of promotion employee got and title after promotion
+-- 12) Number of promotion employee got and title after promotion
 
 select distinct e.emp_no as "Employee ID",     -- selected employee id column and gave alias
 
@@ -230,6 +230,22 @@ inner join employees as e using(emp_no)     -- performed inner join between titl
 group by e.emp_no       -- grouped outer query by employee id
 
 order by e.emp_no asc   -- ordered outer query by employee id in ascending order
+
+
+
+
+-- 13) Calculated salary percentage increase from joined salary and final salary in company
+
+
+select concat(e.first_name,' ' , e.last_name) as "Employee Name",   -- concatenated the first and last name columns and gave alias
+s.emp_no as "Employee ID",  -- selected employee number and gave alias
+
+round((max(salary::float) - min(salary::float))/max(salary::float)*100) as "salary percentage"  -- calculated salary percentage
+
+from salaries as s
+inner join employees as e using(emp_no)  -- inner join between salaries and employees table
+
+group by emp_no,e.first_name,e.last_name  -- grouped according to need
 
 
 
