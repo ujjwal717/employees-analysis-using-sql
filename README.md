@@ -24,6 +24,7 @@ The dataset used has around 3-4 Lakh rows and there are multiple datasets divide
 10) Number of Promotion employee got and Title after Promotion
 11) Number of Raises and Maximum Salary of each Employee
 12) Years took Employee to get the First Promotion
+13) Salary Percentage Increase from Joined Salary and Final Salary in Company
 
 
 
