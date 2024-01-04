@@ -203,7 +203,7 @@ where ((t.to_date = t.from_date) or (e.hire_date = t.from_date))    -- filtered 
 
 and t.to_date not in ('9999-01-01')     -- filtered to remove employee who did not received promotion(or filter 2nd , 3rd or subsequent promotions)
 
-AND (extrcat (year from t.from_date) != extract(year from t.to_date))    -- filtered employee who were removed in same year as hired and didn't' received any promotion
+AND (extract (year from t.from_date) != extract(year from t.to_date))    -- filtered employee who were removed in same year as hired and didn't' received any promotion
 
 order by e.emp_no asc    -- ordered by employee number in ascending order 
 
