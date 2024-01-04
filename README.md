@@ -156,6 +156,14 @@ The dataset used has around 3-4 Lakh rows and there are multiple datasets divide
 
 
 
+13) **Salary Percentage Increase from Joined Salary and the Final Salary from Company**
+
+
+    ![salary percentage 2](https://github.com/ujjwal717/employees-analysis-using-sql/assets/93403224/cecb437e-9da8-4ac9-a635-b796a0919da5)
+
+
+
+
 
 
 
