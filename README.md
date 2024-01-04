@@ -163,6 +163,11 @@ The dataset used has around 3-4 Lakh rows and there are multiple datasets divide
 
 
 
+**Insight :-** Here, we have analysed the overall salary percentage increase since the employee joined the company and his/her final salary in the company. This allowed us to understand the overall increase and growth of the employee in the company atleast in terms of salary and financial state.
+    
+
+
+
 
 
 
